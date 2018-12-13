@@ -54,6 +54,7 @@ jobs:
                       pwd
                       pytest tests/test_parse_json.py
                       pytest tests/test_image_processing_utils.py
+                      pytest tests/test_usage.py
 
 
 workflows:
